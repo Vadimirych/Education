@@ -2,6 +2,9 @@
 ## Entity Framework
 Creating database from code base, no db exists yet
 ```
-> enable-migrations
-> add-migration Initial
+PM> enable-migrations
+...
+PM> add-migration Initial
+...
+PM> update-database
 ```
