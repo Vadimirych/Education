@@ -1,6 +1,6 @@
 
 ## Entity Framework
-Creating database from code base, no db exists yet
+1. Creating database from code base, no db exists yet
 ```
 PM> enable-migrations
 ...
