@@ -1,1 +1,5 @@
 
+## Entity Framework
+```
+enable-migrations
+```
