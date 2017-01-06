@@ -26,3 +26,7 @@ Make changes to model, then run command
 ```
 PM> add-migration <migration_name>
 ```
+Update database after changing model
+```
+PM> update-database -verbose
+```
