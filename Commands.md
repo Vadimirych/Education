@@ -1,11 +1,16 @@
 
 ## Entity Framework
 ### 1. Creating database from code base, no db exists yet
+Create model, then enable migration, no db created yet
 ```
 PM> enable-migrations
-...
+```
+Add initial migration class, no db created yet
+```
 PM> add-migration Initial
-...
+```
+Creating database
+```
 PM> update-database
 ```
 or display SQL statements applied to DB while updating it.
